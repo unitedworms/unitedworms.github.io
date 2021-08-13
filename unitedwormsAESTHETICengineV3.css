@@ -9,7 +9,7 @@ body {
     background-image: url("img/noise.png");
 }
 
-@media (min-width:320px)  { .uwLogo {height: 80%;width: 100%; }} /* mobile */
+@media (min-width:320px)  { .uwLogo {height: 80%;width: 80%; }} /* mobile */
 @media (min-width:1025px) { .uwLogo {height: 50%; width: 50%; }} /* desktop */
 
 table{
