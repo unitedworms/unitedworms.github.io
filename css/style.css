@@ -528,7 +528,7 @@ body > footer{
   align-self:center;
   display:flex;
 }
-@media tester{
+@keyframes tester{
   50%{
     box-shadow:0 -300px 200px 40px rgba(235, 255, 54, 0.856);
   }
@@ -736,7 +736,7 @@ body > footer{
       display:block;
     }
 }
-@media logoGlow2{
+@keyframes logoGlow2{
   10%{
     box-shadow:0 0 150vw 600px #00ff9565;
   }
