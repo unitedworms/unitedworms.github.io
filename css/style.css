@@ -591,7 +591,8 @@ body > footer{
     box-shadow:0 0 5vw 200px rgba(73, 255, 200, 0);
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+@media screen and (max-device-width: 992px){
   #izj6g{
     flex-basis:10%;
   }
@@ -601,6 +602,8 @@ body > footer{
   #logo{
     font-size:x-large;
   }
+}
+@media (max-device-width: 768px){
   .row{
     flex-wrap:wrap;
   }
@@ -611,8 +614,9 @@ body > footer{
     display:block;
   }
 }
-
-@media only screen and (min-device-width : 1124px) {
+@media screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px){
     #menu{
       margin:0 5% 0 0;
       flex-basis:20%;
@@ -636,15 +640,13 @@ body > footer{
       max-width:20%;
     }
 }
-@media (max-width: 768px){
+@media screen and (max-device-width: 480px){
   #iv4sl{
     position:static;
     padding:10px 0 10px 0;
     max-width:100%;
-    justify-content:space-between;
+    justify-content:space-around;
     margin:0 0 0 0;
-    align-items:stretch;
-    align-self:stretch;
   }
   #menu{
     margin:0 0 -10% 0;
@@ -682,13 +684,15 @@ body > footer{
   }
   #iznti:hover{
     box-shadow:0 0 0 0 rgba(255,255,255,0);
-    padding:0 5% 0 5%;
+    padding:0 0 0 0;
   }
   #ibxg3:hover{
     box-shadow:0 0 0 0 rgba(255,255,255,0);
+    padding:0 0 0 0;
   }
   #i6fny:hover{
     box-shadow:0 0 0 0 rgba(255,255,255,0);
+    padding:0 0 0 0;
   }
   #itpfg:hover{
     display:flex;
@@ -713,14 +717,11 @@ body > footer{
     font-size:medium;
     margin:0 0 0 -115%;
   }
-  #ib17i{
-    min-height:0;
-    align-self:center;
-    justify-content:center;
-    display:flex;
+  #i8qmp{
+    max-width:50%;
   }
 }
-@media only screen 
+@media screen 
   and (min-device-width : 320px) 
   and (max-device-width : 767px){
     .row{
@@ -733,6 +734,7 @@ body > footer{
       display:block;
     }
 }
+
 @keyframes logoGlow2{
   10%{
     box-shadow:0 0 150vw 600px #00ff9565;
