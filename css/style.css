@@ -593,18 +593,16 @@ body > footer{
 }
 @media (max-width: 768px){
   .row{
-    flex-wrap:wrap;
+    flex-wrap:wrap !important;
   }
   .navbar-menu{
-    width:100%;
+    width:100% !important;
   }
   .navbar-menu-link{
-    display:block;
+    display:block !important;
   }
 }
-@media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
     #menu{
       margin:0 5% 0 0;
       flex-basis:20%;
@@ -628,14 +626,14 @@ body > footer{
       max-width:20%;
     }
 }
-@media (max-width: 480px){
+@media screen and (max-device-width: 480px){
   #navbox{
-    position:static;
-    padding:10px 0 10px 0;
-    max-width:100%;
-    justify-content:space-around;
-    margin:0 0 0 0;
-    flex-direction:row;
+    position:static !important;
+    padding:10px 0 10px 0 !important;
+    max-width:100% !important;
+    justify-content:space-around !important;
+    margin:0 0 0 0 !important;
+    flex-direction:row !important;
   }
   #menu{
     margin:0 0 -10% 0;
