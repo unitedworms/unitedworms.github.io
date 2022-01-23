@@ -591,7 +591,7 @@ body > footer{
     box-shadow:0 0 5vw 200px rgba(73, 255, 200, 0);
   }
 }
-@media (max-width: 992px){
+@@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
   #izj6g{
     flex-basis:10%;
   }
@@ -601,8 +601,6 @@ body > footer{
   #logo{
     font-size:x-large;
   }
-}
-@media (max-width: 768px){
   .row{
     flex-wrap:wrap;
   }
@@ -613,9 +611,8 @@ body > footer{
     display:block;
   }
 }
-@media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px){
+
+@media only screen and (min-device-width : 1124px) {
     #menu{
       margin:0 5% 0 0;
       flex-basis:20%;
@@ -639,7 +636,7 @@ body > footer{
       max-width:20%;
     }
 }
-@media (max-width: 480px){
+@media (max-width: 768px){
   #iv4sl{
     position:static;
     padding:10px 0 10px 0;
