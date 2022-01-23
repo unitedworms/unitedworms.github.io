@@ -588,7 +588,7 @@ body > footer{
     max-width:20%;
   }
 }
-@media screen and (max-device-width: 767px){
+@media screen and (min-device-width : 500px) and (max-device-width: 767px){
   #navbox{
     position:static;
     padding:10px 0 10px 0;
