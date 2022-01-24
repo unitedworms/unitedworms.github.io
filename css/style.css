@@ -817,7 +817,7 @@ img#icyl8:hover {
     max-width:20%;
   }
 }
-@media screen and (min-device-width : 0px) and (max-device-width: 500px){
+@media screen and (min-device-width : 0px) and (max-device-width: 768px){
   #navbox{
     position:static;
     padding:10px 0 10px 0;
