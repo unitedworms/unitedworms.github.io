@@ -523,7 +523,7 @@ body > footer{
   align-self:center;
   display:flex;
 }
-#ixlxf{
+#footerStyle{
   align-items:stretch;
   flex-direction:row;
   align-self:stretch;
@@ -900,7 +900,7 @@ body > footer{
     max-width:50%;
     justify-content:center;
   }
-  #ixlxf{
+  #footerStyle{
     flex-direction:column;
     justify-content:center;
   }
