@@ -764,7 +764,7 @@
     and (min-device-width : 768px) 
     and (max-device-width : 1024px){
       .mobileHide{
-        display:inherit !important;
+        display: initial !important;
       }
       .mobileShow{
         display:none !important;
@@ -986,19 +986,6 @@
       margin:16px 16px 0 16px;
       box-shadow:0 0 24px 12px #fff500 , 0 0 12px 6px red , 0 -12px 30px 12px #ff8000 ;
     }
-  }
-  @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 767px){
-      .row{
-        flex-wrap:wrap;
-      }
-      .navbar-menu{
-        width:100%;
-      }
-      .navbar-menu-link{
-        display:block;
-      }
   }
   @media only screen 
     and (min-device-width : 320px) 
