@@ -1,12 +1,7 @@
 * {
   box-sizing: border-box;
   }
-  body {
-    margin: 0;
-  }
-  *{
-    box-sizing:border-box;
-  }
+
   body{
     margin:0;
     background-image: url(img/uwNoiseTexture.png);
@@ -617,20 +612,7 @@
     animation: logoGlow 72s infinite;
     animation-delay: 30s;
   }
-  @media tester{
-    50%{
-      box-shadow:0 -300px 200px 40px rgba(255, 54, 205, 0.856);
-    }
-    75%{
-      box-shadow:0 -300px 200px 40px rgba(83, 192, 255, 0.459);
-    }
-    100%{
-      box-shadow:0 -300px 200px 40px rgba(47,255,7,0.35);
-    }
-    25%{
-      box-shadow:0 -300px 200px 40px rgba(235, 255, 54, 0.856);
-    }
-  }
+
   @media fadeEffect{
     from{
       opacity:0;
