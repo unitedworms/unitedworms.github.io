@@ -584,6 +584,9 @@ body > footer{
   display:flex;
   align-items:flex-end;
 }
+img#icyl8:hover {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
 #footerWormsnet{
   display:flex;
   flex-direction:column;
