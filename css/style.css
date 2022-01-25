@@ -619,32 +619,7 @@
       opacity:1;
     }
   }
-  @keyframes logoGlow{
-    10%{
-      box-shadow:0 0 100vw 500px #00ff9565;
-    }
-    35%{
-      box-shadow:0 0  160vw 700px rgba(255, 153, 37, 0.445);
-    }
-    42%{
-      box-shadow:0 0  100vw 300px rgba(255, 153, 37, 0.445);
-    }
-    45%{
-      box-shadow:0 0 1000vw 600px rgba(229, 255, 0, 0.418);
-    }
-    48%{
-      box-shadow:0 0 1000vw 900px rgba(229, 255, 0, 0.418);
-    }
-    55%{
-      box-shadow:0 0  2000vw 600px rgba(247, 0, 255, 0.384);
-    }
-    65%{
-      box-shadow:0 0 24vw 100px rgba(73, 91, 255, 0.5);
-    }
-    69%{
-      box-shadow:0 0 5vw 200px rgba(73, 255, 200, 0);
-    }
-  }
+  
   @media only screen 
     and (min-device-width : 1024px){
       .mobileHide{
@@ -963,7 +938,7 @@
       font-weight:normal;
     }
     #i60rr{
-      margin:0 16px 0 16px;
+      margin:-8px 16px 0 16px;
       box-shadow:0 0 24px 12px #fff500 , 0 0 12px 6px red , 0 -12px 30px 12px #ff8000 ;
     }
   }
@@ -980,6 +955,33 @@
         display:block;
       }
   }
+  @keyframes logoGlow{
+    10%{
+      box-shadow:0 0 100vw 500px #00ff9565;
+    }
+    35%{
+      box-shadow:0 0  160vw 700px rgba(255, 153, 37, 0.445);
+    }
+    42%{
+      box-shadow:0 0  100vw 300px rgba(255, 153, 37, 0.445);
+    }
+    45%{
+      box-shadow:0 0 1000vw 600px rgba(229, 255, 0, 0.418);
+    }
+    48%{
+      box-shadow:0 0 1000vw 900px rgba(229, 255, 0, 0.418);
+    }
+    55%{
+      box-shadow:0 0  2000vw 600px rgba(247, 0, 255, 0.384);
+    }
+    65%{
+      box-shadow:0 0 100vw 300px rgba(73, 91, 255, 0.5);
+    }
+    69%{
+      box-shadow:0 0 5vw 200px rgba(73, 255, 200, 0);
+    }
+  }
+
   @keyframes logoGlow2{
     10%{
       box-shadow:0 0 150vw 600px #00ff9565;
