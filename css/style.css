@@ -4,7 +4,7 @@
 
   body{
     margin:0;
-    background-image: url(img/uwNoiseTexture.png);
+    background-image: url(/img/uwNoiseTexture.png);
     background-color:#e2ffe2;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
@@ -445,6 +445,7 @@
   }
   #logo{
     max-width:200px;
+    width: 100%;
   }
   #bodyContainer{
     align-items:center;
