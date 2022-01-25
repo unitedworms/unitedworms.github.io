@@ -747,7 +747,7 @@
         max-width:20%;
       }
   }
-  @media (max-width: 480px){
+  @media (max-width: 768px){
     .mobileHide{
       display:none;
     }
