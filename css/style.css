@@ -599,7 +599,7 @@
     margin:0 -10px 0 0;
     position:static;
     animation: logoGlow2 72s infinite;
-    animation-delay: 30s;
+    animation-delay: 10s;
   }
   #wormGlow1{
     width:0;
@@ -610,7 +610,7 @@
     min-height:0;
     max-width:0;
     animation: logoGlow 72s infinite;
-    animation-delay: 30s;
+    animation-delay: 10s;
   }
 
   @media fadeEffect{
