@@ -658,11 +658,11 @@
     #i60rr:hover{
       transition:all 0.25s ease-in-out;
     }
-    #iq0az{
+    /* #iq0az{
       margin:52px 8px 0 0;
-    }
+    } */
     #iprt4{
-      margin:0 0 0 8px;
+      margin:10px 0 0 0px;
     }
     #iv01g{
       justify-content:space-between;
@@ -714,7 +714,14 @@
       .mobileShow{
         display:none !important;
       }
+      #contentContainer {max-width: 75vw;}
   }
+  @media only screen 
+  and (min-device-width : 1025px) 
+  and (max-device-width : 1337px){
+    #contentContainer {max-width: 60vw;}
+}
+
   @media only screen 
     and (min-device-width : 844px) 
     and (max-device-width : 1024px){
@@ -924,9 +931,9 @@
       justify-content:center;
       align-self:center;
     }
-    #iprt4{
+    /* #iprt4{
       margin:16px 0 0 0;
-    }
+    } */
     #iv01g{
       margin:0 0 0 0;
     }
