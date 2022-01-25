@@ -537,6 +537,7 @@
   #i6wnc{
     padding:10px;
     line-height:18px;
+
   }
   #iprt4{
     display:flex;
@@ -544,9 +545,8 @@
     position:relative;
     margin:0 0 0 8px;
     align-self:stretch;
-    border:1px dotted #8f8f8f;
+    border:1px dotted #000000;
     min-height:0;
-    border-radius:6px 6px 6px 6px;
   }
   #iv01g{
     padding:0 0 0 0;
@@ -706,7 +706,7 @@
     }
   }
   @media only screen 
-    and (min-device-width : 768px) 
+    and (min-device-width : 844px) 
     and (max-device-width : 1024px){
       .mobileHide{
         display:inherit !important;
@@ -716,7 +716,7 @@
       }
   }
   @media only screen 
-    and (min-device-width : 768px) 
+    and (min-device-width : 844px) 
     and (max-device-width : 1024px){
       .mobileHide{
         display: initial !important;
@@ -747,7 +747,7 @@
         max-width:20%;
       }
   }
-  @media (max-width: 768px){
+  @media (max-width: 844px){
     .mobileHide{
       display:none;
     }
