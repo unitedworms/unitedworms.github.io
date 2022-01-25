@@ -123,13 +123,13 @@
   .zindex2{
     z-index:2;
   }
-  #i6fny:hover::before{
+  #nav1:hover::before{
     opacity:1;
   }
-  #ibxg3:hover::before{
+  #nav2:hover::before{
     opacity:1;
   }
-  #iznti:hover::before{
+  #nav3:hover::before{
     opacity:1;
   }
   // IE 11 bugfix
@@ -160,7 +160,7 @@
     margin:0 0 12px 0;
     display:flex;
   }
-  #i6fny{
+  #nav1{
     box-shadow:0 -6px 150px 60px #44ffb2;
     transition:all 0.3s ease-in-out;
     justify-content:center;
@@ -172,7 +172,7 @@
     height:0;
     text-decoration:none;
   }
-  #ibxg3{
+  #nav2{
     box-shadow:0 -6px 150px 60px #44ffb2;
     opacity:1;
     transition:all 0.3s ease-in-out;
@@ -186,7 +186,7 @@
     height:0;
     text-decoration:none;
   }
-  #iznti{
+  #nav3{
     box-shadow:0 -6px 150px 60px #44ffb2;
     padding:0 0 0 0;
     transition:all 0.3s ease-in-out;
@@ -199,7 +199,7 @@
     height:0;
     text-decoration:none;
   }
-  #i6fny::before{
+  #nav1::before{
     position:relative;
     content:'';
     width:100%;
@@ -210,7 +210,7 @@
     transition-delay:1s;
     transition:opacity 3s ease-in-out;
   }
-  #ibxg3::before{
+  #nav2::before{
     position:relative;
     content:'';
     width:100%;
@@ -221,7 +221,7 @@
     transition-delay:1s;
     transition:opacity 3s ease-in-out;
   }
-  #iznti::before{
+  #nav3::before{
     position:relative;
     content:'';
     width:100%;
@@ -232,18 +232,17 @@
     transition-delay:1s;
     transition:opacity 3s ease-in-out;
   }
-  #i6fny:hover{
+  #nav1:hover{
     transition:all 0.25s ease-in-out;
     opacity:1;
     background:#25ffa2;
-    text-decoration:line-through;
     text-shadow:0 0 2px black, 0 0 6px black, 0 0 3px black;
     box-shadow:-10vw 0 300px 200px #00ff96;
     display:flex;
     align-self:center;
     color:white;
   }
-  #ibxg3:hover{
+  #nav2:hover{
     transition:all 0.25s ease-in-out;
     background:#25ffa2;
     opacity:1;
@@ -252,19 +251,18 @@
     box-shadow:0 0 300px 200px #00ff96;
     color:white;
   }
-  #iznti:hover{
+  #nav3:hover{
     transition:all 0.25s ease-in-out;
     animation-timing-function:ease-in-out;
     opacity:1;
     background:#25ffa2;
-    text-decoration:line-through;
     text-shadow:0 0 2px black, 0 0 6px black, 0 0 3px black;
     box-shadow:10vw 0 300px 200px #00ff96;
     display:block;
     animation-delay:1s;
     color:white;
   }
-  #i6fny:active{
+  #nav1:active{
     text-shadow:0 0 5px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
     box-shadow:-10vw 0 400px 300px #00ffec;
     transition:all 0.1s ease-in-out;
@@ -272,14 +270,14 @@
     background:#00e8ff;
     line-height:-10px;
   }
-  #ibxg3:active{
+  #nav2:active{
     text-shadow:0 0 5px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
     box-shadow:0 0 400px 300px #14ff00;
     transition:all 0.1s ease-in-out;
     color:#FFFFFF;
     background:#3fff00;
   }
-  #iznti:active{
+  #nav3:active{
     text-shadow:0 0 5px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
     box-shadow:0 0 400px 300px #ffea00;
     transition:all 0.1s ease-in-out;
@@ -756,15 +754,15 @@
         flex-basis:20%;
         max-width:20%;
       }
-      #iznti{
+      #nav3{
         box-shadow:0 -10px 80px 40px #44ffb2;
         background:#5dffba;
       }
-      #ibxg3{
+      #nav2{
         box-shadow:0 -10px 80px 40px #44ffb2;
         background:#5dffba;
       }
-      #i6fny{
+      #nav1{
         box-shadow:0 -10px 80px 40px #44ffb2;
         background:#5dffba;
       }
@@ -797,7 +795,7 @@
       justify-content:center;
       padding:0 10px 0 0;
     }
-    #i6fny{
+    #nav1{
       display:block;
       position:relative;
       box-shadow:0 0 0 0 rgba(255,255,255,0);
@@ -813,10 +811,10 @@
       position:static;
       padding:2px 2px 30px 2px;
     }
-    #ibxg3{
+    #nav2{
       box-shadow:0 0 0 0 rgba(255,255,255,0);
     }
-    #iznti{
+    #nav3{
       box-shadow:0 0 0 0 rgba(255,255,255,0);
     }
     #itpfg{
@@ -826,14 +824,14 @@
       min-height:0;
       height:48px;
     }
-    #iznti:hover{
+    #nav3:hover{
       box-shadow:0 0 0 0 rgba(255,255,255,0);
       padding:0 5% 0 5%;
     }
-    #ibxg3:hover{
+    #nav2:hover{
       box-shadow:0 0 0 0 rgba(255,255,255,0);
     }
-    #i6fny:hover{
+    #nav1:hover{
       box-shadow:0 0 0 0 rgba(255,255,255,0);
     }
     #itpfg:hover{
