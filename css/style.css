@@ -678,7 +678,7 @@
     }
     #i60rr{
       transition:all 0.25s ease-in-out;
-      margin:16px 69px 10px 69px;
+      margin:0 69px 10px 69px;
     }
     #i60rr:hover{
       transition:all 0.25s ease-in-out;
@@ -963,7 +963,7 @@
       font-weight:normal;
     }
     #i60rr{
-      margin:16px 16px 0 16px;
+      margin:0 16px 0 16px;
       box-shadow:0 0 24px 12px #fff500 , 0 0 12px 6px red , 0 -12px 30px 12px #ff8000 ;
     }
   }
