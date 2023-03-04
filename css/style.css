@@ -59,10 +59,13 @@ body {
 }
 @media (max-width: 480px) {
   #uwLogo {
-    width: 75%;
+    width: 50%;
   }
   #container {
     align-items: flex-start;
     padding: 24px 0px 0px 0px;
+  }
+  #comingSoon {
+    align-self: flex-start;
   }
 }
